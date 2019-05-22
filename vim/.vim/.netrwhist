@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/kwalkiewicz/japps'
+let g:netrw_dirhist_2='/home/kwalkiewicz/irclogs'
+let g:netrw_dirhist_3='/home/kwalkiewicz/code/egnyte_repos/sddc/roles/manifests/db'
+let g:netrw_dirhist_4='/home/kwalkiewicz/code/clojure'
+let g:netrw_dirhist_5='/home/kwalkiewicz/code/egnyte_repos'
+let g:netrw_dirhist_6='/home/kwalkiewicz/code/egnyte_repos/Zingaro-CLI'
+let g:netrw_dirhist_7='/home/kwalkiewicz/code/egnyte_repos/Zingaro-CLI/zingaro-cli'
+let g:netrw_dirhist_8='/home/kwalkiewicz/code/clojure'
+let g:netrw_dirhist_9='/home/kwalkiewicz/code/docker_scripts'
