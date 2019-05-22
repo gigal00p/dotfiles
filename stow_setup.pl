@@ -5,6 +5,7 @@ use warnings;
 
 my @apps = qw(tmux
               screen
+              vim
               );
 
 for my $app (@apps) {
