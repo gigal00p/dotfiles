@@ -1,0 +1,50 @@
+# ----------------  PBP options, as listed on page 35 of PBP  ----------------
+#  -l=78   # Max line width is 78 cols
+#  #-l=190   # Max line width is 78 cols
+#  -i=4    # Indent level is 4 cols
+#  -ci=4   # Continuation indent is 4 cols
+#  -vt=2   # Maximal vertical tightness
+#  -cti=0  # No extra indentation for closing brackets
+#  -pt=1   # Medium parenthesis tightness
+#  -sbt=1  # Medium square bracket tightness
+#  -bt=1   # Medium brace tightness (for non-code blocks)
+#  -bbt=1  # Medium block brace tightness (for code blocks)
+#  -nsfs   # No space before semicolons
+#  -nolq   # Don't outdent long quoted strings
+#  #-gnu
+#  # Break before all operators:
+#  -wbb="% + - * / x != == >= <= =~ < > | & **= += *= &= <<= &&= -= /= |= >>= ||= .= %= ^= x="
+#  
+#  # Note that the PBP book has a typo on page 35 when defining the above -wbb
+#  # option, see http://oreilly.com/catalog/perlbp/errata/perlbp.confirmed
+#  # The above string is correct.
+
+# -pbp     # Start with Perl Best Practices
+# -w       # Show all warnings
+# -iob     # Ignore old breakpoints
+# -l=79    # 79 characters per line
+# -mbl=2   # No more than 2 blank lines
+# -i=4     # Indentation is 2 columns
+# -ci=4    # Continuation indentation is 2 columns
+# -vt=0    # Less vertical tightness
+# -pt=2    # High parenthesis tightness
+# -bt=2    # High brace tightness
+# -sbt=2   # High square bracket tightness
+# -isbc    # Don't indent comments without leading space
+
+# Depesz settings
+--backup-file-extension=beforeTidy
+--block-brace-tightness=0
+--brace-tightness=0
+--closing-token-indentation=1
+--continuation-indentation=4
+--indent-columns=4
+--maximum-line-length=195
+--nocuddled-else
+--noopening-brace-on-new-line
+--nooutdent-labels
+--paren-tightness=0
+--square-bracket-tightness=0
+--vertical-tightness=0
+--vertical-tightness-closing=0
+--break-at-old-comma-breakpoints
