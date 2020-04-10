@@ -1,0 +1,21 @@
+\set QUIET 1
+\set HISTCONTROL ignoreboth
+\set HISTSIZE 32767
+\pset border 2
+\pset unicode_border_linestyle double
+\pset unicode_column_linestyle single
+\pset unicode_header_linestyle single
+\set HISTFILE ~/.psql_history- :DBNAME-:USER
+\pset linestyle unicode
+\pset format aligned
+\timing on
+\pset null '(null)'
+\x off
+
+\set COMP_KEYWORD_CASE upper
+\set clear '\\! clear;'
+\setenv PSQL_EDITOR_LINENUMBER_ARG +
+
+\set ECHO queries
+
+\unset QUIET
