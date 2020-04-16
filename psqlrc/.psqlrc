@@ -5,7 +5,7 @@
 \pset unicode_border_linestyle double
 \pset unicode_column_linestyle single
 \pset unicode_header_linestyle single
-\set HISTFILE ~/.psql_history- :DBNAME-:USER
+\set HISTFILE ~/.psql_history- :DBNAME-:USER-:HOST
 \pset linestyle unicode
 \pset format aligned
 \timing on
