@@ -12,6 +12,7 @@
 \pset null '(null)'
 \x off
 
+\set ON_ERROR_STOP true
 \set COMP_KEYWORD_CASE upper
 \set clear '\\! clear;'
 \setenv PSQL_EDITOR_LINENUMBER_ARG +
